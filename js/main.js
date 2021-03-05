@@ -36,15 +36,15 @@ function mostrarResultados(weather) {
     switch (weather.weather[0].main) {
         case "Clouds":
             clima.innerText = "Nublado";
-            imagen.style.backgroundImage = "url('../img/Nublado.jpg')";
+            imagen.style.backgroundImage = "url('https://images.pexels.com/photos/3941855/pexels-photo-3941855.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260')";
             break;
         case "Clear":
             clima.innerText = "Despejado";
-            imagen.style.backgroundImage = "url('../img/Sol.jpg')";
+            imagen.style.backgroundImage = "url('https://images.pexels.com/photos/3768/sky-sunny-clouds-cloudy.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')";
             break;
         case "Rain":
             clima.innerText = "LLuvioso";
-            imagen.style.backgroundImage = "url('../img/Lluvia.jpg')";
+            imagen.style.backgroundImage = "url('https://images.pexels.com/photos/1529360/pexels-photo-1529360.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260')";
             break;
         default:
             clima.innerText = "---";
